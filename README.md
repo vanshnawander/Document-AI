@@ -46,8 +46,9 @@
     ```env
     OPENAI_API_KEY=your_openai_api_key_here
     ```
+6. Run the test.ipynb jupyter notebook for database creation before using the App
 
-6. Run the FastAPI app:
+7. Run the FastAPI app:
 
     ```sh
     python -m uvicorn main:app --reload
